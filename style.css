@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Sacramento&display=swap');
+:root{
+    --main-color: #95bb72;
+}
+*{
+    margin: 0;padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    border: none;
+    outline: none;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.theme-color{
+    color: var(--main-color);
+}
+
+.leftside{
+    width: 50vw;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    
+
+}
+
+.rightside{
+    width: min-content;
+    height: min-content;
+    box-shadow: 0 0 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    padding: 40px 20px;
+}
+.fillup-section{
+    margin-bottom: 10px;
+    width:300px ;
+    height: 20px;
+    display: block;
+    padding: 10px 30px 10px 5px ;
+    border: 1.5px solid grey;
+    border-radius: 5px;
+}
+.login-button{
+    color: white;
+    width: 340px;
+    height: 30px;
+    background-color: #95bb72;
+    border: 3px solid #95bb72;
+
+}
+.forgot-button{
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+    margin-top: 15px;
+    font-size: medium;
+    text-align: center;
+
+}
+.create-button{
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+    margin-top: 15px;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+}
